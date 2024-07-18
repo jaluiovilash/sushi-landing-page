@@ -46,7 +46,6 @@ a {
     color: inherit;
 }
 
-
 .flex-center {
     display: flex;
     justify-content: center;
@@ -113,11 +112,11 @@ a {
         flex-direction: column;
     }
 
-    .about-us__image {
+    .about-us__img {
         flex-direction: row;
     }
 
-    .about-us__image-sushi3 {
+    .about-us__img-sushi3 {
         border-bottom: none;
         border-right: 8px solid var(--color-creamson);
     }
@@ -128,11 +127,11 @@ a {
 }
 
 @media screen and (max-width: 750px) {
-    .about-us__image {
+    .about-us__img {
         flex-direction: column;
     }
 
-    .about-us__image-sushi3 {
+    .about-us__img-sushi3 {
         border-bottom: 8px solid var(--color-creamson);
         border-right: none;
     }
@@ -145,15 +144,15 @@ a {
 
 @media screen and (max-width: 550px) {
 
-    .about-us__image-sushi2 img,
-    .about-us__image-sushi3 img {
+    .about-us__img-sushi2 img,
+    .about-us__img-sushi3 img {
         width: 50%;
         height: 160px;
 
         object-fit: contain;
     }
 
-    .about-us__image div {
+    .about-us__img div {
         padding: 32px;
     }
 
@@ -198,7 +197,7 @@ a {
         flex-direction: column;
     }
 
-    .hero-image img {
+    .hero-img img {
         width: 100%;
 
         transform: matrix(1, 0.05, 0, 1.25, 0, 0) !important;
@@ -206,14 +205,14 @@ a {
 }
 
 @media screen and (max-width: 750px) {
-    .hero-image h2 {
+    .hero-img h2 {
         font-size: 70px;
         line-height: 90px;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .hero-image h2 {
+    .hero-img h2 {
         font-size: 40px;
         line-height: 60px;
     }
@@ -302,7 +301,7 @@ a {
         flex-direction: column-reverse;
     }
 
-    .trending__image {
+    .trending__img {
         width: 100%;
         background-size: cover;
     }
@@ -317,7 +316,7 @@ a {
 }
 
 @media screen and (max-width: 550px) {
-    .trending__image img {
+    .trending__img img {
         width: 70%;
         height: 70%;
     }
